@@ -16,7 +16,7 @@ import (
 const (
 	// TODO fill this in directly or through environment variable
 	// Build a DSN e.g. postgres://postgres:gnsecret@choukasherp.cud7jbsftjfi.ap-southeast-1.rds.amazonaws.com:5432/dbName
-	DB_DSN = "postgres://postgres:gnsecret@gononeterp.cud7jbsftjfi.ap-southeast-1.rds.amazonaws.com:5432/choukash_erp_1_0_0"
+	DB_DSN = "postgres://postgres:password@gononeterp.cud7jbsftjfi.ap-southeast-1.rds.amazonaws.com:5432/testDB"
 )
 
 type User struct {
