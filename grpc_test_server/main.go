@@ -37,7 +37,7 @@ import (
 
 const (
 	port   = ":50051"
-	DB_DSN = "postgres://postgres:gnsecret@gononeterp.cud7jbsftjfi.ap-southeast-1.rds.amazonaws.com:5432/choukash_erp_1_0_0"
+	DB_DSN = "postgres://postgres:password@gononeterp.cud7jbsftjfi.ap-southeast-1.rds.amazonaws.com:5432/testDB"
 )
 
 // server is used to implement helloworld.GreeterServer.
