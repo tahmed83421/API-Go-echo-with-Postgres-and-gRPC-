@@ -62,13 +62,13 @@ func main() {
 	e.POST("/users", test)
 
 	// Start server
-	e.Logger.Fatal(e.Start(":1325"))
+	e.Logger.Fatal(e.Start(":1328"))
 
 }
 
 // Handler
 func hello(c echo.Context) error {
-	return c.String(http.StatusOK, "Hello, World!")
+	return c.String(http.StatusOK, "Hello, World! People")
 }
 
 //Handler
